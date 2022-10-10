@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gerador de QR Code</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
+</head>
+
+<body>
+    <section class="home clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="cabecalho">
+                        <h2>QR Code</h2>
+                        <h3>QR</h3>
+                        <p>Coloque qualquer https ou texto.</p>
+                    </div>
+                    <div class="Formulario">
+                        <form class="form-inline Form">
+                            <input type="text" id="data" class="form-control hyper" placeholder="Https ou Texto">
+                            <input type="button" class="submit" value="Gerar" onclick="generateQRCode()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homeThumb">
+            <img id="qr" src="" width="60%">
+        </div>
+    </section>
+</body>
+</html>
